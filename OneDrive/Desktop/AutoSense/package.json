@@ -1,0 +1,13 @@
+{
+  "name": "authsense-plus",
+  "version": "1.0.0",
+  "description": "AI-powered behavioral authentication system",
+  "scripts": {
+    "start": "concurrently \"cd backend && python app.py\" \"cd frontend && npm start\"",
+    "build": "cd frontend && npm run build",
+    "test": "cd backend && python -m pytest"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
